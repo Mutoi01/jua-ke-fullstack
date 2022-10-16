@@ -17,17 +17,13 @@ function Navbar() {
 
              <li><Link to={"/"} >contact us</Link></li>
 
-             <li><Link to={"/login"} >Login</Link>
-             <ul>
-                      <li> <Link to={"/"} >logout</Link></li>
-                    </ul>
-             </li>
-            
-             {/* <li><Link to={"/staff"} > Port Operators +</Link>
-                    <ul>
-                      <li> <Link to={"/add-staff"} >Add Staff</Link></li>
-                    </ul>
-             </li> */}
+              <li><Link to={"/add-story"} > Add Story</Link> </li> 
+              
+                  <li><Link to={"/login"} >Login</Link>
+                  <ul>
+                           <li> <Link to={"/"} >logout</Link></li>
+                         </ul>
+                  </li>
            </ul>
         </nav>
       </header>
